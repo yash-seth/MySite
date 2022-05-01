@@ -1,0 +1,181 @@
+#background { 
+    width: 100vw;
+    min-height: 100vh;
+}
+
+.data{
+    flex:1;
+    padding: 10px 0px 0px 20px;
+}
+.data__header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom:1px solid lightgray;
+    height:40px;
+}
+.data__headerLeft{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.active_dataHeader{
+    color: red;
+    border-bottom: 3px solid red;
+    padding:8px;
+}
+
+/* .inner{
+    border-right: 2px solid lightgray;
+} */
+
+.data_list_header{
+    display: flex;
+    align-items: center;
+    border-bottom:1px solid lightgray;
+    height:40px;
+}
+
+#active{
+    padding:8px;
+    border-bottom:3px solid red;
+    color:red;
+}
+
+#line{
+    padding-left:2px;
+    border-left: 1px solid lightgray;
+}
+
+#assigned{
+    padding-left:20px;
+}
+
+.data__headerRight svg{
+    margin: 0px 10px;
+}
+
+.Root-Btn{
+    background-color: transparent;
+    border: 2px solid rgba(0,0,0,0.5);
+    display: flex;
+    width: 70px;
+    height: 35px;
+    align-items: center;
+    border-radius: 40px;
+    padding: 15px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    margin-top: 15px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.Root-Btn_green{
+    background-color: rgba(14, 251, 14, 0.382);
+    border: 2px solid rgba(0,0,0,0.5);
+    display: flex;
+    width: auto;
+    height: 35px;
+    align-items: center;
+    border-radius: 40px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.Root-Btn_red{
+    background-color: rgba(236, 20, 20, 0.382);
+    border: 2px solid rgba(0,0,0,0.5);
+    display: flex;
+    width: auto;
+    height: 35px;
+    align-items: center;
+    border-radius: 40px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.Root-Btn_grey{
+    background-color: rgba(227, 234, 227, 0.382);
+    border: 2px solid rgba(0,0,0,0.5);
+    display: flex;
+    width: auto;
+    height: 35px;
+    align-items: center;
+    border-radius: 40px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.Root-Btn:hover{
+    background-color:rgba(0,0,0,0.5) ;
+    color: #fff;
+    padding: 15px;
+    padding-left: 17px;
+    border: none;
+    z-index: 10;
+}
+
+.FolderHeading{
+    display: flex;
+    color: red;
+    margin: 10px;
+    margin-top: 20px;
+    padding: 20px;
+    font-weight: 600;
+}
+
+#edit{
+    padding-left:50px;
+    color:black;
+}
+
+#leftArrow{
+    color:black;
+}
+
+
+.detailsrow{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 20px;
+    background-color: rgb(228, 223, 223);
+}
+
+#depname{
+    padding-left:120px;
+}
+
+#nill{
+    padding:0px 100px;
+}
+
+#row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+    padding: 5px 20px;
+}
+
+.detailsrow p{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 13px;
+    padding : 0px 10px;
+}
+.detailsrow p svg{
+    font-size: 22px;
+    margin:10px;
+    color:rgb(72, 73, 73);
+    background-color: transparent;
+
+}
+
+.data_list{
+    padding:0 50px 50px 50px;
+}
